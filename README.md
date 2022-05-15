@@ -14,9 +14,8 @@ const randomFox = require('random-fox-img');
 
 (async () => {
     const res = await randomFox();
-    console.log(res.data);
+    console.log(res.data); // {"success":true,"status":200,"category":"animals","endpoint":"fox","message":"https://cdn.skiffybot.xyz/images/animals/fox/red-fox-in-the-wild-2-1624831.jpg"}
 })();
-// > {"success":true,"status":200,"category":"animals","endpoint":"fox","message":"https://cdn.skiffybot.xyz/images/animals/fox/red-fox-in-the-wild-2-1624831.jpg"}
 ```
 
 ### Promise example
