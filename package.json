@@ -1,0 +1,33 @@
+{
+  "name": "random-fox",
+  "version": "1.0.0",
+  "description": "This package returns a random fox image from API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js",
+    "up": "ncu -u && npm install && npm update && npm audit fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sefinek24/random-fox.git"
+  },
+  "keywords": [
+    "random",
+    "cat",
+    "cats",
+    "image",
+    "images",
+    "skiffy",
+    "bot",
+    "api"
+  ],
+  "author": "Sefinek (https://skiffybot.xyz)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sefinek24/random-fox/issues"
+  },
+  "homepage": "https://github.com/sefinek24/random-fox#readme",
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
+}
