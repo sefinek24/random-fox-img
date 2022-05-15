@@ -14,7 +14,7 @@ const randomFox = require('random-fox-img');
 
 (async () => {
     const res = await randomFox();
-    console.log(res.data); // {"success":true,"status":200,"category":"animals","endpoint":"fox","message":"https://cdn.skiffybot.xyz/images/animals/fox/red-fox-in-the-wild-2-1624831.jpg"}
+    console.log(res.data);
 })();
 ```
 
@@ -23,6 +23,17 @@ const randomFox = require('random-fox-img');
 const randomFox = require('random-fox-img');
 
 randomFox().then(res => console.log(res.data));
+```
+
+### Returned object
+```json
+{
+  "success": true,
+  "status": 200,
+  "category": "animals",
+  "endpoint": "fox",
+  "message": "https://cdn.skiffybot.xyz/images/animals/fox/red-fox-in-the-wild-2-1624831.jpg"
+}
 ```
 
 ## 🤝 » Help
