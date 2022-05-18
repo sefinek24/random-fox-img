@@ -8,7 +8,7 @@
 > **$** npm install random-fox-img
 
 ## 🐈 » Usage
-### Async/await example
+### • Async/await example
 ```js
 const randomFox = require('random-fox-img');
 
@@ -18,14 +18,14 @@ const randomFox = require('random-fox-img');
 })();
 ```
 
-### Promise example
+### • Promise example
 ```js
 const randomFox = require('random-fox-img');
 
 randomFox().then(res => console.log(res.data));
 ```
 
-### Returned object
+### • Returned object
 ```json
 {
   "success": true,
