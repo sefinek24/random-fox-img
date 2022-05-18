@@ -1,4 +1,4 @@
-const randomFox = require('./index.js');
+const randomFox = require('./');
 
 (async () => {
 	const res = await randomFox();
