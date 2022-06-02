@@ -1,6 +1,6 @@
 {
   "name": "random-fox-img",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "This package returns a random fox image from API.",
   "main": "index.js",
   "scripts": {
