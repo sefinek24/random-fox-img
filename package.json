@@ -28,6 +28,6 @@
   },
   "homepage": "https://github.com/sefinek24/random-fox-img#readme",
   "dependencies": {
-    "axios": "^0.27.2"
+    "axios": "^1.1.2"
   }
 }
