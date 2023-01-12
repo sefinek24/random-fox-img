@@ -2,7 +2,8 @@
     <h1>🦊 » What is that? « 🦊</h1>
     This package for npm returns a random fox image from <a href="https://api.sefinek.net" target="_blank">API</a>.
     <p>Check better alternative <a href="https://www.npmjs.com/package/@sefinek/random-animals" target="_blank">@sefinek/random-animals</a>.</p>
-    <img src="https://cdn.sefinek.net/images/animals/fox/red-fox-in-the-wild-2-1624831.jpg" alt="Random fox" height="290px">
+    <img src="https://cdn.sefinek.net/images/animals/fox/red-fox-in-the-wild-2-1624831.jpg" alt="Random fox image" height="290px">
+    <h2>⭐ » Star the repo if you liked it « ⭐</h2>
 </div>
 
 ## 😼 » Installation
@@ -15,7 +16,7 @@ const randomFox = require('random-fox-img');
 
 (async () => {
     const res = await randomFox();
-    console.log(res.data);
+    console.log(res.data.message);
 })();
 ```
 
@@ -23,7 +24,7 @@ const randomFox = require('random-fox-img');
 ```js
 const randomFox = require('random-fox-img');
 
-randomFox().then(res => console.log(res.data));
+randomFox().then(res => console.log(res.data.message));
 ```
 
 ### • Returned object
