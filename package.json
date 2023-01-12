@@ -4,7 +4,7 @@
   "description": "This package returns a random fox image from API.",
   "main": "index.js",
   "scripts": {
-    "test": "node test.js",
+    "test": "node example.js",
     "up": "ncu -u && npm install && npm update && npm audit fix"
   },
   "repository": {
