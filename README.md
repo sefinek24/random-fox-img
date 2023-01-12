@@ -3,7 +3,7 @@
     This package for npm returns a random fox image from <a href="https://api.sefinek.net" target="_blank">API</a>.
     <p>Check better alternative <a href="https://www.npmjs.com/package/@sefinek/random-animals" target="_blank">@sefinek/random-animals</a>.</p>
     <img src="https://cdn.sefinek.net/images/animals/fox/red-fox-in-the-wild-2-1624831.jpg" alt="Random fox image" height="290px">
-    <h2>⭐ » Star the repo if you liked it « ⭐</h2>
+    <h1>⭐ » Star the repo if you liked it « ⭐</h1>
 </div>
 
 ## 😼 » Installation
