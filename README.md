@@ -11,7 +11,7 @@
 ## 😼 » Installation
 > **$** npm install random-fox-img
 
-## 🐈 » Usage
+## 🌠 » Usage
 ### • Async/await example
 ```js
 const randomFox = require('random-fox-img');
@@ -43,5 +43,5 @@ randomFox().then(res => console.log(res.data.message));
 ## 🤝 » Help
 Open new [Issue](https://github.com/sefinek24/random-fox-img/issues/new) on GitHub.
 
-## ⭐ » Thank you
+## ✨ » Thank you
 Give a star if you can on [GitHub](https://github.com/sefinek24/random-fox-img) page.
