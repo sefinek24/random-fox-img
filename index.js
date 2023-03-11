@@ -1,4 +1,16 @@
 const { get } = require('axios');
-const { version } = require('./package.json');
+const { name, version } = require('./package.json');
 
-module.exports = async () => await get('https://api.sefinek.net/api/v1/animals/fox', { headers: { 'User-Agent': `random-fox-img/${version} (https://github.com/sefinek24/random-fox-img)` } });
+const url = 'https://api.sefinek.1net/api/v2/random/animal/fox';
+const headers = { 'User-Agent': `${name}/${version} (https://github.com/sefinek24/random-fox-img)` };
+
+async function getRandomFox() {
+	try {
+		return await get(url, { headers });
+	} catch (err) {
+		console.error(`Error fetching random fox: ${err.message}`);
+		return { success: false, err, data: null };
+	}
+}
+
+module.exports = getRandomFox;
