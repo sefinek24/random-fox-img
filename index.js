@@ -1,7 +1,7 @@
 const { get } = require('axios');
 const { name, version } = require('./package.json');
 
-const url = 'https://api.sefinek.1net/api/v2/random/animal/fox';
+const url = 'https://api.sefinek.net/api/v2/random/animal/fox';
 const headers = { 'User-Agent': `${name}/${version} (https://github.com/sefinek24/random-fox-img)` };
 
 async function getRandomFox() {
