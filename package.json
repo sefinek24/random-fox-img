@@ -1,34 +1,48 @@
 {
   "name": "random-fox-img",
-  "version": "1.0.11",
-  "description": "This package returns a random fox image from API.",
-  "main": "index.js",
-  "scripts": {
-    "test": "node example.js",
-    "up": "ncu -u && npm install && npm update && npm audit fix"
+  "version": "1.1.0",
+  "description": "An npm module that provides random fox images. Fast and reliable.",
+  "keywords": [
+    "api",
+    "bot",
+    "fox",
+    "foxs",
+    "image",
+    "images",
+    "random",
+    "random-fox",
+    "random-fox-api",
+    "random-fox-apis",
+    "random-fox-image",
+    "random-fox-images",
+    "random-fox-img",
+    "random-fox-img-api",
+    "random-fox-img-apis",
+    "random-foxes",
+    "random-foxs"
+  ],
+  "homepage": "https://github.com/sefinek24/random-fox-img#readme",
+  "bugs": {
+    "url": "https://github.com/sefinek24/random-fox-img/issues"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sefinek24/random-fox-img.git"
   },
-  "keywords": [
-    "random",
-    "fox",
-    "foxes",
-    "image",
-    "images",
-    "skiffy",
-    "bot",
-    "api",
-    "sefinek"
-  ],
-  "author": "Sefinek (https://sefinek.net)",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/sefinek24/random-fox-img/issues"
+  "author": "Sefinek <contact@sefinek.net> (https://sefinek.net)",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "directories": {
+    "example": "examples",
+    "test": "test"
   },
-  "homepage": "https://github.com/sefinek24/random-fox-img#readme",
-  "dependencies": {
-    "axios": "^1.4.0"
+  "scripts": {
+    "test": "jest test/index.test.js",
+    "test-async": "node examples/async.example.js",
+    "test-promise": "node examples/promise.example.js"
+  },
+  "devDependencies": {
+    "jest": "^29.6.4"
   }
 }
