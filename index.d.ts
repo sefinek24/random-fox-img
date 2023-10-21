@@ -7,8 +7,3 @@ interface getRandomFox {
     };
     message: string;
 }
-
-/*
- * This is the type definition file for the API with random foxes.
- * Written by ChatGPT.
- */
