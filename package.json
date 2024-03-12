@@ -38,6 +38,7 @@
     "test": "test"
   },
   "scripts": {
+    "up": "ncu -u && npm install && npm update && npm audit fix",
     "test": "jest test/index.test.js",
     "test-async": "node examples/async.example.js",
     "test-promise": "node examples/promise.example.js"
