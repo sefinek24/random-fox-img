@@ -1,14 +1,22 @@
 declare module 'random-fox-img' {
-    interface FoxImageData {
+    interface Info {
+        category: string;
+        endpoint: string;
+    }
+
+    interface GetRandomFox {
         success: boolean;
         status: number;
-        info: {
-            category: string;
-            endpoint: string;
-        };
+        info: Info;
         message: string;
     }
 
-    function getRandomFox(): Promise<FoxImageData>;
-    export = getRandomFox;
+    /**
+     * Retrieves a random fox object from the specified API.
+     *
+     * @async
+     * @returns {Promise<GetRandomFox>} A promise that resolves with a random fox object on success or rejects with an error on failure.
+     * @throws {Error} If there's an error in making the request, parsing JSON data, or if the API responds with a non-200 status code.
+     */
+    export function getRandomFox(): Promise<GetRandomFox>;
 }
